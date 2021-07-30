@@ -12,9 +12,7 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <div className="topNavBar">
-      <TopNav link1='#section1' link2='#section2' link3='#section3' link4='#section4'/>
-      </div>
+        <TopNav link1='#section1' link2='#section2' link3='#section3' link4='#section4'/>
         <div>
           <ScrollableAnchor id={"section1"}>
             <section className="container1">Container 1</section>

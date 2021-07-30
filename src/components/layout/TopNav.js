@@ -1,16 +1,17 @@
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
+import "./TopNav.module.css"
 
 function TopNav(props) {
   return (
-    <div>
-      <Navbar fixed="top" expand="sm"  bg="light" >
+    <div >
+      <Navbar variant="dark" style={{margin:"5px",borderRadius: "12px", backgroundColor: "rgba(0,0,0,0.6)"}} fixed="top" expand="sm" >
         <Container>
           <Navbar.Brand href={props.link1}>Bubbles</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
 
-              <Nav.Link href={props.link2}>Section2</Nav.Link>
+              <Nav.Link  href={props.link2}>Section2</Nav.Link>
               <Nav.Link href={props.link3}>Section3</Nav.Link>
               <Nav.Link href={props.link4}>Section4</Nav.Link>
               <NavDropdown title="Other Pages" id="basic-nav-dropdown">
