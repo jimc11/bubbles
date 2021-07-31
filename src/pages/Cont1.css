@@ -1,18 +1,11 @@
-
 .container1{
-    background-image: url('../images/section1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    transform: scaleY(-1); 
-    height: 0;
-    padding-top: 45.9%;
+    background-color:black;
+    height:1000px;
 }
 .messageBubble{
   position: absolute;
   left: 5%;
   top: 0px;
-  background-color:black;
   transform: scaleY(-1);
 }
 .messageText{
@@ -26,6 +19,7 @@
 .bubbleImg {
 
     background-image: url('../images/section1.jpg');
+    background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
     transform: scaleY(-1);

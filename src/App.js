@@ -7,7 +7,6 @@ import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 import TopNav from "./components/layout/TopNav";
 import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
 
 import "./App.css";
 import Cont1 from "./pages/Cont1";
@@ -32,7 +31,7 @@ function App() {
             </ScrollableAnchor>
             <ScrollableAnchor id={"section2"}>
               <div className="cont2Wrapper" >
-                <Cont3></Cont3>
+                <Cont2></Cont2>
               </div>
             </ScrollableAnchor>
             <ScrollableAnchor id={"section3"}>
@@ -40,11 +39,7 @@ function App() {
                 <Cont3></Cont3>
               </div>
             </ScrollableAnchor>
-            <ScrollableAnchor id={"section4"}>
-              <div>
-                <Cont4></Cont4>
-              </div>
-            </ScrollableAnchor>
+
         </Container>
       </div>
     </div>
@@ -52,19 +47,3 @@ function App() {
 }
 
 export default App;
-// style={{ width: "100%",
-//     transform: "scaleY(-1)",
-//     height: "0",
-//     paddingTop: "45.9%", backgroundImage: "./images/section1.jpg",backgroundSize:"cover"}}
-/* <TopNav />
-        <Switch>
-          <Route path="/" exact>
-            <Cont1></Cont1>
-          </Route>
-          <Route path="/Cont2">
-            <Cont2></Cont2>
-          </Route>
-          <Route path="/Cont3">
-            <Cont3></Cont3>
-          </Route>
-        </Switch> */

@@ -11,7 +11,7 @@ function Cont1() {
     setOpen(true)
    }
     return (
-        <div className="container2">
+        <div className="container1">
             <div className="bubbleImg">
                 <div className="messageBubble">
                     <div className="messageText">
