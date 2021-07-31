@@ -1,6 +1,4 @@
-.topNavBar{
-    color:red;
-}
+/* 
 .container1{
     height:1000px;
     background-image: url(./images/section1.jpg);
@@ -28,4 +26,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
+} */
+.cont1Wrapper{
+    /* size: 400px 400px; */
 }

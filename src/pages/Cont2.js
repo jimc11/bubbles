@@ -1,5 +1,10 @@
-function Cont1(){
-    return<div>Cont1</div>
+import "./Cont2.css";
+function Cont2() {
+    return (
+        <div className="container2">
+                
+        </div>
+    );
 }
 
-export default Cont1; 
+export default Cont2;
