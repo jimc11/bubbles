@@ -17,7 +17,7 @@ function Cont1() {
                     <div className="messageText">
                         <Fade in={open}>
                             <div className="greeting">
-                                Welcome to Bubbles, the only good API.
+                                Welcome to Bubbles, the only good website.
                             </div>
                         </Fade>
                         {/* <div className="test">test</div> */}

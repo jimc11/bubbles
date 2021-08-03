@@ -1,6 +1,6 @@
 .container1{
     background-color:black;
-    height:1000px;
+    height: 130%;
 }
 .messageBubble{
   position: absolute;
@@ -22,9 +22,9 @@
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    transform: scaleY(-1);
     height: 0;
     padding-top: 45.2%;
+    transform: scaleY(-1);
 
 }
 
