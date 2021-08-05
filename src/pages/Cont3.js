@@ -1,8 +1,7 @@
 import "./Cont3.css";
 import React from "react";
-import ReactDOM from "react-dom";
 import { SocialIcon } from "react-social-icons";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Spinner from "react-bootstrap/Spinner";
 import Button from "react-bootstrap/Button";
 import { init } from "emailjs-com";
@@ -43,7 +42,7 @@ function Cont3() {
           <div className="topLeft"></div>
           <div className="topRight">
             <div className="top">B U B B L E</div>
-            <a className="blueButton">Pretty cool, right?</a>
+            <a href="https://github.com/jimc11" className="blueButton">Pretty cool, right?</a>
             <article className="bottom">
               If you want a gorgeous landing page customized just for you, then you should contact
               me, James Crowley. Tell me exactly how you want your website to look and I'll make it

@@ -12,7 +12,6 @@ import "./App.css";
 import Cont1 from "./pages/Cont1";
 import Cont2 from "./pages/Cont2";
 import Cont3 from "./pages/Cont3";
-import Cont4 from "./pages/Cont4";
 function App() {
   return (
     <div className="app">
