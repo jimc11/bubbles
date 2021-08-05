@@ -11,7 +11,7 @@ function Cont2() {
   return (
     <div className="backdrop">
       <div className="mainContent">
-        <div className="headTitle"> Look at these beautiful bubbles</div>
+        <div className="headTitle"> </div>
         <div className="bodyContent">
           <div class="gallery">
             <div className="gallery__item--1" >
@@ -37,11 +37,11 @@ function Cont2() {
           <div className="rightContent">
             <div className="articleHeader">These bubbles have no right to be this gorgeous.</div>
             <br></br>
-            <article style={{color:"rgb(120,120,120)"}}>Look at these beautiful god-damn bubbles.  Who would have thought that a close-up shot of a bubble would look so pretty?  If you can suspend the idea that these are oily and soapy, then they almost look like some fun candies or exotic smoothies.  On an unrelated note, did you know that this site was built using React and Bootstrap?  It's meant to just be a demonstration of the kinds of things that I can build for clients.  You should hire me to code some other pretty websites!</article>
+            <article style={{color:"rgb(120,120,120)",fontSize:"1.4vw"}}>Look at these beautiful god-damn bubbles.  Who would have thought that a close-up shot of a bubble would look so pretty?  If you can suspend the idea that these are oily and soapy, then they almost look like some fun candies or exotic smoothies.  On an unrelated note, did you know that this site was built using React and Bootstrap?  It's meant to just be a demonstration of the kinds of things that I can build for clients.  You should hire me to code some other pretty websites!</article>
             <br></br>
             <div className="links">
-              <a className="link" href="https://jamesrobertcrowley.com/">See more cool things</a>
-              <a className="link" href="https://www.linkedin.com/in/james-c-4910b08a/">Who am I?</a>
+              <a className="link" style={{fontSize:"1.7vw"}} href="https://jamesrobertcrowley.com/">See more cool things</a>
+              <a className="link" style={{fontSize:"1.7vw"}} href="https://www.linkedin.com/in/james-c-4910b08a/">Who am I?</a>
             </div>
 
           </div>
