@@ -35,13 +35,13 @@ function Cont2() {
 
           </div>
           <div className="rightContent">
-            <div className="articleHeader">A once in a lifetime opportunity.</div>
+            <div className="articleHeader">These bubbles have no right to be this gorgeous.</div>
             <br></br>
-            <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in sagittis elit, nec bibendum eros. Fusce eget arcu fringilla, cursus ipsum ac, condimentum metus. Quisque blandit ultricies est, at eleifend dolor tincidunt quis. Duis congue quis justo vitae ultricies. Curabitur a porta nisl, quis congue elit. Morbi lacinia, tortor ut auctor vestibulum, sapien ligula consequat purus, at molestie lectus mi vitae enim.</article>
+            <article style={{color:"rgb(120,120,120)"}}>Look at these beautiful god-damn bubbles.  Who would have thought that a close-up shot of a bubble would look so pretty?  If you can suspend the idea that these are oily and soapy, then they almost look like some fun candies or exotic smoothies.  On an unrelated note, did you know that this site was built using React and Bootstrap?  It's meant to just be a demonstration of the kinds of things that I can build for clients.  You should hire me to code some other pretty websites!</article>
             <br></br>
             <div className="links">
-              <a className="link">Learn more </a>
-              <a className="link">Buy </a>
+              <a className="link" href="https://jamesrobertcrowley.com/">See more cool things</a>
+              <a className="link" href="https://www.linkedin.com/in/james-c-4910b08a/">Who am I?</a>
             </div>
 
           </div>

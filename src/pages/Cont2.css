@@ -78,42 +78,37 @@
     "link link";
 }
 .link{
-    font-size: 18px;
+    font-size: 21px;
     color: rgb(0, 122, 223);
     text-align: center;
     text-decoration: none;
 }
 
-.test {
-    background-image: url("../images/grid1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 0;
-  padding-top: 55.2%;
 
-  padding-right: 100px;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 1.5rem; 
-  }
-.gallery__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block; 
-  }
 .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 15px;
 }
-
+.gallery__item--1:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gallery__item--2:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gallery__item--3:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gallery__item--4:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gallery__item--5:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .gallery__item--6:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 .gallery__item--1 {
     background-image: url("../images/grid1.jpg");
     background-repeat: no-repeat;
@@ -121,6 +116,8 @@
     height: 100%;
     object-fit: cover;
     display: block; 
+    transition: transform .2s; /* Animation */
+
 
     grid-column-start: 1;
     grid-column-end: 3;
@@ -135,6 +132,7 @@
     object-fit: cover;
     display: block; 
 
+    transition: transform .2s; /* Animation */
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -148,6 +146,7 @@
     object-fit: cover;
     display: block; 
 
+    transition: transform .2s; /* Animation */
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -160,6 +159,7 @@
     object-fit: cover;
     display: block; 
 
+    transition: transform .2s; /* Animation */
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 3;
@@ -172,6 +172,7 @@
     object-fit: cover;
     display: block; 
 
+    transition: transform .2s; /* Animation */
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 6;
@@ -184,6 +185,7 @@
     object-fit: cover;
     display: block; 
 
+    transition: transform .2s; /* Animation */
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 6;

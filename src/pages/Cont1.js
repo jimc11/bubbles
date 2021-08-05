@@ -5,7 +5,7 @@ import React, { useState } from "react";
 function Cont1() {
     const [open, setOpen] = useState(false);
 
-   setTimeout(triggerSetOpen, 1000)
+   setTimeout(triggerSetOpen, 700)
 
    function triggerSetOpen(){
     setOpen(true)

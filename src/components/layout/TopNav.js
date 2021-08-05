@@ -20,8 +20,8 @@ function TopNav(props) {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <div style={{ marginLeft:"10px"}}>
-                <Nav.Link style={{marginLeft:"5px", display:"inline-block"}} href={props.link2}>Section2</Nav.Link>
-                <Nav.Link style={{marginLeft:"5px", display:"inline-block"}} href={props.link3}>Section3</Nav.Link>
+                <Nav.Link style={{marginLeft:"5px", display:"inline-block"}} href={props.link2}>About</Nav.Link>
+                <Nav.Link style={{marginLeft:"5px", display:"inline-block"}} href={props.link3}>Learn more</Nav.Link>
               </div>
 
               <NavDropdown style={{position: "absolute",right: "10px"}} title="Other Pages" id="basic-nav-dropdown">
