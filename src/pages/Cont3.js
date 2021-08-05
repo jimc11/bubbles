@@ -56,7 +56,7 @@ function Cont3() {
             </article>
           </div>
         </div>
-        <div className="bottomLeft">
+        <div className="contact">
           <div className="hmu">
             <div className="contactMe">Contact Me!</div>
             <div className="socIcons">

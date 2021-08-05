@@ -1,12 +1,11 @@
 .container1{
     background-color:black;
-    height: 130%;
+    height: 100vh;
 }
 .messageBubble{
   position: absolute;
-  left: 5%;
-  top: 0px;
-  transform: scaleY(-1);
+  left:  5vw;
+  bottom: 15%;
 }
 .messageText{
     
